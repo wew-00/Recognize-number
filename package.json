@@ -1,0 +1,8 @@
+{
+  "name": "mnist_brain",
+  "version": "1.0.1",
+  "description": " MNIST.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
