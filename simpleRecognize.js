@@ -13,8 +13,5 @@ const testSet = set.test;
 net.fromJSON(require('./data/mnistTrain'));
 
 let output = net.run(testSet[0].input);
-let input = net.run(testSet[1].output);              //add
-console.log(testSet[1].input);                       //add
-console.log(softmax(input));                         //add
 console.log(testSet[0].output);
 console.log(softmax(output));
